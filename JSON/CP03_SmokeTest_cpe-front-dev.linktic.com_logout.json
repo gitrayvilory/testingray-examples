@@ -1,0 +1,71 @@
+{
+    "title": "CP03_SmokeTest_cpe-front-dev.linktic.com_logout",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1086,
+            "height": 751,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/main/div/app-navbar/nav/div[2]/button/mat-icon"
+                ],
+                [
+                    "text/expand_more"
+                ]
+            ],
+            "offsetY": 16,
+            "offsetX": 16
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-menu-panel-0\"]/div/button[1]/span"
+                ],
+                [
+                    "text/Configuración"
+                ]
+            ],
+            "offsetY": 8,
+            "offsetX": 84.7421875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/main/div/app-navbar/nav/div[2]/button/mat-icon"
+                ],
+                [
+                    "text/expand_more"
+                ]
+            ],
+            "offsetY": 13,
+            "offsetX": 4
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-menu-panel-0\"]/div/button[2]/span/div/span"
+                ],
+                [
+                    "text/Cerrar sesión"
+                ]
+            ],
+            "offsetY": 4,
+            "offsetX": 65.7421875
+        }
+    ]
+}

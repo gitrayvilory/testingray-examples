@@ -1,0 +1,97 @@
+{
+    "title": "CP01_SmokeTest_cpe-front-dev.linktic.com_login",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 907,
+            "height": 751,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://cpe-front-dev.linktic.com/login",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://cpe-front-dev.linktic.com/login",
+                    "title": "CPE"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"email\"]"
+                ]
+            ],
+            "offsetY": 15.2890625,
+            "offsetX": 163.546875
+        },
+        {
+            "type": "change",
+            "value": "testing@linktic.com",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"email\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"password\"]"
+                ]
+            ],
+            "offsetY": 9.2890625,
+            "offsetX": 57.546875
+        },
+        {
+            "type": "change",
+            "value": "LinkTic123",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"password\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "xpath///*[@id=\"role\"]"
+            ],
+            "offsetX": 4.953125,
+            "offsetY": 3.2890625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "xpath///*[@id=\"mat-option-0\"]/span[text()='Administrador']"
+            ],
+            "offsetX": 36.546875,
+            "offsetY": 12.2890625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-login/div/div/div/div[2]/app-card-content/div/form/div/app-action-button/button"
+                ]
+            ],
+            "offsetY": 16.2890625,
+            "offsetX": 58.953125
+        }
+    ]
+}

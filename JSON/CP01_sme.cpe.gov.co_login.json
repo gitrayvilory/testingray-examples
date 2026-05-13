@@ -1,0 +1,89 @@
+{
+    "title": "CP01_sme.cpe.gov.co_login",
+    "selectorAttribute": "data-testid",
+    "timeout": 30000,
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 915,
+            "height": 746,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://sme.cpe.gov.co/Login",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://sme.cpe.gov.co/Login",
+                    "title": "SIMEE-CPE - Sistema de Información de Monitoreo y Evaluación para la Innovación Educativa - Computadores para Educar"
+                }
+            ]
+        },
+        {
+            "type": "change",
+            "value": "admin@cpe.gov.co",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"login\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"password\"]"
+                ]
+            ],
+            "offsetY": 22,
+            "offsetX": 113
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "xpath///*[@id=\"password\"]"
+            ],
+            "value": "Cpe2023*"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.rz-dropdown-trigger > span",
+                "xpath///*[@id=\"-ZiRiWesaE\"]/div[2]/span",
+                "pierce/div.rz-dropdown-trigger > span"
+            ],
+            "offsetX": 8,
+            "offsetY": 9.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#popupMIHSuY4x30 li",
+                "xpath///*[@id=\"popupMIHSuY4x30\"]/div/ul/li",
+                "pierce/#popupMIHSuY4x30 li",
+                "aria/>Admin"
+            ],
+            "offsetX": 212,
+            "offsetY": 11
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "xpath///*[@id=\"app\"]/div[3]/form/div/div[6]/div/div/center/button",
+                "text/INGRESAR"
+            ],
+            "offsetX": 70.5,
+            "offsetY": 22
+        }
+    ]
+}

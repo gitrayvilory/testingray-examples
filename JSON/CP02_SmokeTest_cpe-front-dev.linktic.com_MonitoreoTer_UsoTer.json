@@ -1,0 +1,376 @@
+{
+    "title": "CP02_SmokeTest_cpe-front-dev.linktic.com_MonitoreoTer_UsoTer",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1210,
+            "height": 754,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://cpe-front-dev.linktic.com/dashboard",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://cpe-front-dev.linktic.com/dashboard",
+                    "title": "CPE"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/app-sidebar/div/button[1]/img"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 13.421875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/app-sidebar/div[2]/nav/div/button/mat-icon"
+                ]
+            ],
+            "offsetY": 11.5625,
+            "offsetX": 0.9375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/app-sidebar/div[2]/nav/div/div/a[1]/span"
+                ]
+            ],
+            "offsetY": 7.5625,
+            "offsetX": 41
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/app-sidebar/button"
+                ]
+            ],
+            "offsetY": 228,
+            "offsetX": 488
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-select-value-0\"]/span"
+                ],
+                [
+                    "text/Seleccione un departamento"
+                ]
+            ],
+            "offsetY": 5.1015625,
+            "offsetX": 99
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-option-1\"]/span"
+                ],
+                [
+                    "text/Cundinamarca"
+                ]
+            ],
+            "offsetY": 13.6015625,
+            "offsetX": 28
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-select-value-1\"]"
+                ]
+            ],
+            "offsetY": 10.6015625,
+            "offsetX": 223
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-option-4\"]/span"
+                ],
+                [
+                    "text/Secretaría de Educación de Bogotá"
+                ]
+            ],
+            "offsetY": 4.6015625,
+            "offsetX": 169
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-select-value-2\"]/span"
+                ],
+                [
+                    "text/Seleccione un municipio"
+                ]
+            ],
+            "offsetY": 10.1015625,
+            "offsetX": 105
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-option-7\"]/span"
+                ]
+            ],
+            "offsetY": 3.6015625,
+            "offsetX": 40
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-select-value-3\"]/span"
+                ],
+                [
+                    "text/Seleccione una institución"
+                ]
+            ],
+            "offsetY": 13.1015625,
+            "offsetX": 120
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-option-11\"]/span"
+                ],
+                [
+                    "text/I.E. Técnica"
+                ]
+            ],
+            "offsetY": 8.6015625,
+            "offsetX": 69
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-select-value-4\"]/span"
+                ],
+                [
+                    "text/Seleccione una sede"
+                ]
+            ],
+            "offsetY": 9.1015625,
+            "offsetX": 98
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-option-12\"]/span"
+                ],
+                [
+                    "text/Sede Principal"
+                ]
+            ],
+            "offsetY": 16.6015625,
+            "offsetX": 61
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-select-value-5\"]/span"
+                ],
+                [
+                    "text/Seleccione una"
+                ]
+            ],
+            "offsetY": 2.1015625,
+            "offsetX": 88
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-option-16\"]/span"
+                ],
+                [
+                    "text/Google Chrome"
+                ]
+            ],
+            "offsetY": 12.6015625,
+            "offsetX": 51
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-input-0\"]"
+                ]
+            ],
+            "offsetY": 20.6015625,
+            "offsetX": 169
+        },
+        {
+            "type": "change",
+            "value": "1234567890",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-input-0\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-input-1\"]"
+                ]
+            ],
+            "offsetY": 12.6015625,
+            "offsetX": 27
+        },
+        {
+            "type": "change",
+            "value": "C",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-input-1\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "c",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Categoria#",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-input-1\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "3",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Categoria#1",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-input-1\"]"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/main/app-use-terminals/app-content-module/div/app-card-content/div/form/div[5]/div[1]/mat-form-field/div[1]/div[2]/div[2]/mat-datepicker-toggle/button/span[3]"
+                ]
+            ],
+            "offsetY": 23.6015625,
+            "offsetX": 26
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-datepicker-0\"]/div/mat-month-view/table/tbody/tr[4]/td[5]/button/span[1]"
+                ]
+            ],
+            "offsetY": 18.5078125,
+            "offsetX": 19,
+            "duration": 386
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/main/app-use-terminals/app-content-module/div/app-card-content/div/form/div[5]/div[2]/mat-form-field/div[1]/div[2]/div[2]/mat-datepicker-toggle/button/span[3]"
+                ]
+            ],
+            "offsetY": 29.6015625,
+            "offsetX": 19
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath///*[@id=\"mat-datepicker-1\"]/div/mat-month-view/table/tbody/tr[4]/td[5]/button/span[1]"
+                ]
+            ],
+            "offsetY": 20.5078125,
+            "offsetX": 17
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "xpath//html/body/app-root/app-layout/div/main/app-use-terminals/app-content-module/div/app-card-content/div/form/div[7]/app-primary-button/app-action-button/button"
+                ],
+                [
+                    "text/check Buscar"
+                ]
+            ],
+            "offsetY": 28.3046875,
+            "offsetX": 58.4375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "app-secondary-button button",
+                "xpath//html/body/app-root/app-layout/div/main/app-use-terminals/app-content-module/div/app-card-content/div/form/div[7]/app-secondary-button/app-action-button/button",
+                "pierce/app-secondary-button button",
+                "aria/Limpiar",
+                "text/delete_outline Limpiar"
+            ],
+            "offsetX": 70.9765625,
+            "offsetY": 25.8046875
+        }
+    ]
+}
